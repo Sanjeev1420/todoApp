@@ -1,0 +1,76 @@
+body {
+    background-image: url('https://imgs.search.brave.com/On-vTZ7Vjhx5EKaUl7_2__PPHrHcCH46MHIMIcwwzOw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTE2/NzcyMzc2L3Bob3Rv/L25vdGVwYWQtdG8t/ZG8tbGlzdC1nZXQt/dGhpbmdzLWRvbmUu/d2VicD9iPTEmcz0x/NzA2NjdhJnc9MCZr/PTIwJmM9b2xLcUJ3/dGJKUUE0dEhfdEM1/MjBxbmdZd3lqY3Jw/dUhaMmVZcTNFWGdq/az0');
+    background-size: cover; /* or "contain" depending on your preference */
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh; /* 100% of the viewport height */
+    margin: 0; /* Remove default margin */
+    opacity: 0.9;
+}
+
+.inputForm{
+    height: 80px;
+    border : 1px solid rgb(240, 240, 240);
+    box-shadow: 6px 6px 6px 6px rgba(211, 211, 211, 0.75);
+    margin:12px 80px 5px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputForm form{
+   width:1000px;
+}
+
+.formBody {
+    height: 45px;
+}
+
+.formBody button{
+    height: 44px;
+}
+
+.mytodos{
+    margin: 40px 30px 0px 30px;
+    border: 1px solid rgb(221, 219, 219);
+    height: auto;
+}
+
+.mytodosHead a{
+    margin-left: 30px;
+}
+
+.mytodosHead select{
+    margin-right: 50px;
+    width: 190px;
+    height: 35px;
+    border-color:rgb(183, 183, 183);
+    border-radius: 8px;
+}
+
+.todolists{
+    margin-top: 20px;
+}
+
+#todoItems{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+#todoItems .card{
+    width: 400px;
+    position: relative;
+    left:15px;
+    margin : 20px 15px 20px;
+}
+
+#todoItems select {
+    margin-left: 5px;
+    width: 140px;
+    border-color: rgb(186, 184, 184);
+    border-radius: 3px;
+}
+
+#todoItems button {
+   margin-right: 10px;
+}
